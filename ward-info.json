@@ -1,0 +1,18 @@
+{
+    "family_name": "Mendoza",
+    "move_in_date": "10/10/2002",
+    "number_of_people": 2,
+    "visited_by_bishopric": true,
+    "family_members": [
+        {
+        "name": "Franz Marcelo",
+        "gender": "Male",
+        "birthdate": "1969-07-16"
+        },
+        {
+        "name": "Vivian Teran",
+        "gender": "Female",
+        "birthdate": "1973-05-02"
+        }
+    ]
+}
