@@ -3,21 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Directory</title>
+    <title>Cocha | Directory</title>
     <meta name="description" content="Chamber of Commerce: Directory">
     <meta name="author" content="Natalia Mendoza">
 
     <!-- Favicon -->
-    <link rel="icon" href="">
+    <link rel="icon" href="images/favicon.ico">
 
     <!-- CSS reference -->
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/directory.css">
     
     <!-- JS reference -->
-    <script src="" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
 
     <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Playwrite+IS:wght@100..400&display=swap" rel="stylesheet">
 
     <!-- Open Graph Properties -->
     <meta property="og:title" content="Natalia Mendoza Teran">
@@ -27,40 +31,64 @@
 </head>
 <body>
     <header>
-        <img id="logo" src="" alt="logo" height="50">
+        <img id="logo" src="images/cocha_logo.png" alt="logo" height="50">
+        <nav class="nav-bar">
+            <ul class="nav-list">
+                <li><a class="nav-link" href="#" id="home">Home</a></li>
+                <li><a class="nav-link" href="directory.html" id="directory">Directory</a></li>
+                <li><a class="nav-link" href="#" id="join">Join</a></li>
+                <li><a class="nav-link" href="#" id="discover">Discover</a></li>
+            </ul>
+        </nav>
+
         <div class="hamburger">
             <div class="line"></div>
             <div class="line"></div>
             <div class="line"></div>
         </div>
-        <nav class="nav-bar">
-            <ul class="nav-menu">
-                <li><a href="index.html" id="home" class="nav-link">Home</a></li>
-                <li><a href="#" id="directory" class="nav-link">Directory</a></li>
-                <li><a href="#" id="join" class="nav-link">Join</a></li>
-                <li><a href="#" id="discover" class="nav-link">Discover</a></li>
-            </ul>
-        </nav>
     </header>
+
+    <body>
+        <img class="hero" src="images/cochabamba-hero-large.webp" alt="">
+        <h1>Home</h1>
+        <section class="gallery">
+            <div class="card">
+                <h2>Events</h2>
+            </div>
+            <div class="card">
+                <h2>Current Weather</h2>
+                <p>Hi</p>
+            </div>
+            <div class="card">
+                <h2>Weather Forecast</h2>
+                <p>Hi</p>
+            </div>
+        </section>
+
+        <section class="business">
+            
+        </section>
+    </body>
     
     <footer>
-        <div class="f-info">
-            <strong>Cochabamba Chamber of Commerce</strong>
-            <p>lorem ipsum</p>
-            <p>Cochabamba, Bolivia 000</p>
+        <div>
+            <strong><p>Cochabamba Chamber of Commerce</p></strong>
+            <p>14 de Septiembre Street, 0000</p>
+            <p>info@cochabamba.org</p>
+            <p>Cochabamba, Bolivia</p>
             <p>(+591) 0000 0000</p>
         </div>
 
-        <div class="f-icons">
-            <img src="" alt="youtube-icon">
-            <img src="" alt="instagram-icon">
-            <img src="" alt="facebook-icon">
+        <div>
+            <img src="images/instagram-icon.svg" alt="instagram-icon" width="50">
+            <img src="images/facebook-icon.svg" alt="facebook-icon" width="50">
+            <img src="images/tiktok-icon.svg" alt="tiktok-icon" width="50">
         </div>
 
-        <div class="f-student-info">
-            <p>WDD231 Class Project</p>
-            <p>Natalia Mendoza</p>
-            <p>©<span id="current-year"></span> • Cochabamba Chamber of Commerce</p>
+        <div>
+            <p>WDD 231 Class Project</p>
+            <p>Natalia Mendoza Teran</p>
+            <p>© <span id="current-year"></span> • Cochabamba Chamber of Commerce</p>
             <p class="last-modified">Last Modification: <span id="last-modified"></span></p>
         </div>
     </footer>
