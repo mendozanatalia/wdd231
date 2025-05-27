@@ -110,31 +110,8 @@ header {
     transform: translateY(-9px) rotate(-45deg);
 }
 
-@media (max-width: 800px) {
-    .nav-bar {
-        position: fixed;
-        top: 100px;
-        background-color: var(--pink);
-        width: 100%;
-        padding: 1rem;
-        transform: translateX(100%);
-    }
-
-    .nav-list {
-        flex-direction: column;
-        align-items: center;
-        row-gap: 20px;
-    }
-
-    .hamburger {
-        display: block;
-
-    }
-}
-
-
 /* ----- BODY ----- */
-.hero {
+.hero img{
     width: 100%;
 }
 
@@ -182,4 +159,30 @@ footer p {
 .last-modified {
     color: gold;
     font-style: italic;
+}
+
+
+
+
+
+@media (max-width: 800px) {
+    .nav-bar {
+        position: fixed;
+        top: 100px;
+        background-color: var(--pink);
+        width: 100%;
+        padding: 1rem;
+        transform: translateX(100%);
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .hamburger {
+        display: block;
+
+    }
 }
