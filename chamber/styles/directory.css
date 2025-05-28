@@ -1,3 +1,4 @@
+/* ----- BUSSINES SECTION ----- */
 .member {
     display: flex;
     flex-direction: column;
@@ -23,3 +24,5 @@
     flex-direction: row;
     padding-top: 1rem;
 }
+
+/* ----- WEATHER SECTION ----- */
