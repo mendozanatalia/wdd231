@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "Orejas de Elefante",
+            "address": "Av. Franz Tamayo, entre 6 de Junio y Nicolás Flores",
+            "email": "orejaselefante@gmail.com",
+            "phone_number": "(+591) 69484426",
+            "facebook": "@OrejasdeElefante",
+            "image_url": "https://scontent.fcbb2-1.fna.fbcdn.net/v/t39.30808-6/351797277_6935917719755676_8158680126309908812_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=a1ATZJuNar8Q7kNvwEOqVML&_nc_oc=AdncuJNTDE_-kZandMgCgqlCx1jDAhPVOjp9F0Q8V7m0DxTAaXUvTBKSp7tnd9cjvBM&_nc_zt=23&_nc_ht=scontent.fcbb2-1.fna&_nc_gid=Ir1oO2eW9_O_AKK8lVlVYg&oh=00_AfIT9mxwoCxHtzGsunqXqEgnqklTdmgBoLJqoMH4KiITog&oe=683AE7BF",
+            "membership_level": "3"
+        },
+        {
+            "name": "Zephyre",
+            "address": "Av. Ecológica, Tiquipaya",
+            "email": "zephyre@gmail.com",
+            "phone_number": "(+591) 79366976",
+            "facebook": "@zephyre_bolivia",
+            "image_url": "https://scontent.fcbb2-1.fna.fbcdn.net/v/t39.30808-6/467244095_1224187949240369_6820752652318463650_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=M7siskYzi9EQ7kNvwG1VMoP&_nc_oc=Adn9-h4uS1dm-X27CxHYSR0f5Vd_qSaRaLZfk5px9SWk8TcTU1DUIvJ-IuimrovTTzU&_nc_zt=23&_nc_ht=scontent.fcbb2-1.fna&_nc_gid=du_P0v6mZfAnM-IXQKrAjQ&oh=00_AfJg_sePT0m9Cmi7LK8CBAABiYWH-jFisGedHDxl8fbBqQ&oe=683B0844",
+            "membership_level": "2"
+        },
+        {
+            "name": "Cocha Emprende",
+            "address": "Colegio San Agustín",
+            "email": "cochaemp@gmail.com",
+            "phone_number": "(+591) 79343988",
+            "facebook": "@cocha_emprende",
+            "image_url": "https://scontent.fcbb2-1.fna.fbcdn.net/v/t39.30808-6/459420639_10162721671881015_2092004980141760378_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=gJ-T2HubhP8Q7kNvwFHHFUx&_nc_oc=AdmNbZId-nYP_4o20KyXzJc_V8fHDCEFgYVGc4Qg9IvCCw4UhhdervRuBRAaAANiRpw&_nc_zt=23&_nc_ht=scontent.fcbb2-1.fna&_nc_gid=oAE9rQex8YG6ioVkB-ztmA&oh=00_AfIiEFxqjSp9hkKLzPF7jYtHRsKr_Jyg6Gh6bTqWvZEVWw&oe=683AF7BB",
+            "membership_level": "3"
+        },
+        {
+            "name": "Briz",
+            "address": "Av. Final America Este, 1760",
+            "email": "brizbolivia@gmail.com",
+            "phone_number": "(+591) 77904481",
+            "facebook": "@briz.bo",
+            "image_url": "https://scontent.fcbb2-2.fna.fbcdn.net/v/t39.30808-6/434725615_731722762450194_6096972602506511446_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=_JepzVRF8esQ7kNvwE7ANZ0&_nc_oc=Adk9KeJTVoIdLCzDk_BJvo98eKrnOn0tAq2ndjgpfMJewCzE2GVX5MH70aG9XtcfpNE&_nc_zt=23&_nc_ht=scontent.fcbb2-2.fna&_nc_gid=SBTcpL_sm9K5Jo-l2Wp6IQ&oh=00_AfJbamKy85WP_-BO1d7DBQERAq3ddzQKsjufIBhrVxOy-A&oe=683B11B7",
+            "membership_level": "3"
+        },
+        {
+            "name": "proyecto mARTadero",
+            "address": "Calle 27 de Agosto esquina Ollantay",
+            "email": "pmartadero@gmail.com",
+            "phone_number": "(+591) 71729338",
+            "facebook": "@proyectomARTadero",
+            "image_url": "https://scontent.fcbb2-2.fna.fbcdn.net/v/t39.30808-6/487778707_1092847629550097_3799296393344885699_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=UnrCa7Ii6cwQ7kNvwF96Ghg&_nc_oc=AdlDMAr6c6H0R_QLChA4TfH5np8qrKWbNowN8e_mt8X0N3ubrJFrN7VfnYghiOOoOkU&_nc_zt=23&_nc_ht=scontent.fcbb2-2.fna&_nc_gid=PzfApbDFVrFBmFY9x_EkPg&oh=00_AfKJiWwTIkVe-CojDOrmYoAEcRykZxb4HxxCusBFAEk-0g&oe=683AFE64",
+            "membership_level": "3"
+        },
+        {
+            "name": "Paseo Aranjuez",
+            "address": "Av. América #488 Esquina Calle Pantaleon Dalence",
+            "email": "paseoaranjuez@gmail.com",
+            "phone_number": "(+591) 61795513",
+            "facebook": "@paseoaranjuez",
+            "image_url": "https://scontent.fcbb2-2.fna.fbcdn.net/v/t39.30808-6/472311734_1146966403605738_71905043393805293_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Abp-0jf3iDIQ7kNvwHwR9iT&_nc_oc=AdkfgrXCwcXgTEwSUNUaITRy_8QPTP_IjHXO0qsVSciHIDqidw6pzddAQ4mq65MkEsw&_nc_zt=23&_nc_ht=scontent.fcbb2-2.fna&_nc_gid=lUcjBIlXY295_6aVw2T7mQ&oh=00_AfIUYMHGXWRTmSqYPBSfF75sNCe-bV5gOPsJCNSbG2M-uw&oe=683B08F7",
+            "membership_level": "3"
+        },
+        {
+            "name": "Isabella's - Baked with Love",
+            "address": "Aniceto Padilla, 271",
+            "email": "isabellasbakery@gmail.com",
+            "phone_number": "(+591) 78358457",
+            "facebook": "@I_bakedwithlove",
+            "image_url": "https://scontent.fcbb2-1.fna.fbcdn.net/v/t39.30808-6/294134711_514368707105025_7080228502628532939_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=PeuSkKv84rgQ7kNvwFmMbbF&_nc_oc=Adk5NmVywDqhvMqQ8M1Q-iVq8hEsJ46qg4p3yfhSmWfBDVxQiTOvgXSzLD9vuErH9l8&_nc_zt=23&_nc_ht=scontent.fcbb2-1.fna&_nc_gid=JUAQvwR0zbjf1kY56SFP_Q&oh=00_AfJzJSLLCsqnybtnHm0IIQPnfHwJ1LFq-iqdjR5sr0QoTQ&oe=683AF788",
+            "membership_level": "2"
+        }
+    ]
+}

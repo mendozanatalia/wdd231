@@ -1,0 +1,25 @@
+.member {
+    display: flex;
+    flex-direction: column;
+    padding: .75rem;
+    font-size: small;
+}
+
+.member h2, p{
+    padding-bottom: .5rem;
+}
+
+.member img {
+    width: 100px;
+    margin-right: 1rem;
+}
+
+.member-name {
+    text-align: center;
+}
+
+.member-info {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+}
