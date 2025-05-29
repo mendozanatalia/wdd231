@@ -30,7 +30,7 @@
 /* list view */
 .list-item {
     text-align: left;
-    width: 700px;
+    width: 900px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
