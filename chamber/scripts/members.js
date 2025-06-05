@@ -39,18 +39,13 @@ function displayMembersGrid(members) {
 
     members.forEach(member => {
         const card = document.createElement('div');
-        card.classList.add('member', 'card');
+        card.classList.add('card', 'member');
 
         card.innerHTML = `
-            <div class="member-name">
-                <h2>${member.name}</h2>
-                <hr>
-            </div>
-            
-            <div class="member-info">
-                <div>
+            <h2>${member.name}</h2>
+            <hr>
+            <div class="info-horizontal">
                 <img src="${member.image_url}" alt="Portrait of ${member.name}" loading="lazy">
-                </div>
                 <div>
                     <p><strong>PHONE:</strong> ${member.phone_number}</p>
                     <p><strong>EMAIL:</strong> ${member.email}</p>
@@ -71,7 +66,7 @@ function displayMembersList(members) {
 
     members.forEach(member => {
         const row = document.createElement('div');
-        row.classList.add('member', 'list-item');
+        row.classList.add('list-item');
 
         row.innerHTML = `
             <strong>${member.name}</strong>
