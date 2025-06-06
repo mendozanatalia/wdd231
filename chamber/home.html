@@ -12,12 +12,13 @@
 
     <!-- CSS reference -->
     <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/home.css">
     
     <!-- JS reference -->
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/members.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
 
     <!-- Typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -50,6 +51,11 @@
     </header>
 
     <main>
+        <div id="join-us" class="container">
+            <a href="join.html">Click Here to Join Us!</a>
+        </div>
+        
+        <!-- HERO -->
         <div class="hero">
             <picture>
                 <source media="(min-width: 800px)" srcset="images/hero-home-l.webp">
@@ -58,19 +64,50 @@
         </div>
 
         <h1>Home</h1>
-        <section class="gallery">
-            <div class="card general">
+
+        <section class="container">
+            <!-- EVENTS -->
+            <div id="events" class="card">
                 <h2>Events</h2>
-
+                <div class="info-vertical">
+                    <div>
+                        <h3>🍔 Burger Week</h3>
+                        <p>A special week where you can taste a special burger at all participating restaurants! You can rate each restaurant you try to determine the winner.</p>
+                        <p><strong>Date: </strong>From June 2nd to June 8th</p>
+                        <p><strong>Location: </strong>See the participants list on our Facebook Page</p>
+                    </div>
+                    <hr>
+                    <div>
+                        <h3>🖼 Museums Night</h3>
+                        <p>This great night is a hallmark of our city, where you can enter all the museums along the main road for free.</p>
+                        <p><strong>Date: </strong>Friday, June 13th</p>
+                        <p><strong>Location: </strong>The buses will be from 7:00 PM to 8:00 PM on Plaza 14 de Septiembre</p>
+                    </div>
+                </div>
             </div>
-            <div class="card general">
+            <!-- CURRENT WEATHER -->
+            <div class="card">
                 <h2>Current Weather</h2>
-
+                <div class="info-horizontal">                    
+                    <figure>
+                        <img id="weather-icon" src="" alt="">
+                        <figcaption></figcaption>
+                    </figure>       
+                    <div id="current-weather">
+    
+                    </div>         
+                </div>
             </div>
-            <div class="card general">
-                <h2>Weather Forecast</h2>
-
+            <!-- WEATHER FORECAST -->
+            <div id="weather-forecast" class="card">
+        
             </div>
+        </section>
+        
+        <!-- SPOTLIGHTS -->
+        <h1>Spotlights</h1>
+        <section id="spotlights" class="container">
+
         </section>
     </main>
     

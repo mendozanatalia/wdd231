@@ -1,0 +1,29 @@
+#join-us {
+    background-color: var(--pink);
+}
+
+#join-us a {
+    color: white;
+    font-size: xx-large;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#events {
+    width: 615px;
+}
+
+#events h2 {
+    background-color: var(--orange);
+    color: white;
+}
+
+.member {
+    width: 350px;
+    min-height: 180px;
+}
+
+.member h2 {
+    background-color: white;
+    color: black;
+}

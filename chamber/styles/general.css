@@ -21,8 +21,12 @@ h1 {
     font-family: 'Playwrite IS';
 	text-align: center;
     color: var(--purple);
-    margin: .5rem;
+    padding: 1rem;
     font-size: 200%;
+}
+
+figcaption {
+    text-align: center;
 }
 
 /* button */
@@ -133,11 +137,10 @@ header {
 /* hero */
 .hero img{
     width: 100%;
-    padding-bottom: 1rem;
 }
 
 /* container */
-.gallery {
+.container {
     padding: 1rem;
     display: flex;
     flex-wrap: wrap;
@@ -148,20 +151,35 @@ header {
 
 /* card */
 .card {
+    min-width: 300px;
+    min-height: 200px;
     box-shadow: var(--box-shadow);
     border-radius: .5rem;
-    width: 300px;
-    min-height: 150px;
 }
 
-.card.general h2 {
-    background-color: var(--orange);
+.card h2 {
+    background-color: var(--turquoise);
     color: white;
     text-align: center;
     border-radius: .5rem .5rem 0 0;
-    padding: 10px 30px;
+    padding: .5rem 0;
 }
 
+.info-horizontal {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: .5rem;
+}
+
+.info-vertical {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: .5rem;
+}
 
 /* ----- FOOTER ----- */
 footer {
