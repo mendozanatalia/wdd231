@@ -2,7 +2,7 @@
 /* grid view */
 .member {
     width: 350px;
-    height: 200px;
+    min-height: 180px;
 }
 
 .member h2 {
