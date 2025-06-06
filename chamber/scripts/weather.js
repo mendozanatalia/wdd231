@@ -42,20 +42,27 @@ async function apiFetch2() {
 
 function displayCurrentWeather(data) {
     const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
-    weatherIcon.setAttribute('src', iconsrc);
-    captionDesc.innerHTML = data.weather[0].description;
-    weatherIcon.setAttribute('alt', data.weather[0].description);
+    const iconDesc = data.weather[0].description;
     
     const sunrise = new Date(data.sys.sunrise * 1000).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
     const sunset = new Date(data.sys.sunset * 1000).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
 
     current.innerHTML = `
-        <p><strong>${data.main.temp} °C</strong></p>
-        <p><strong>High: </strong>${data.main.temp_max} °C</p>
-        <p><strong>Low: </strong>${data.main.temp_min} °C</p>
-        <p><strong>Humidity: </strong>${data.main.humidity} %</p>
-        <p><strong>Sunrise: </strong>${sunrise}</p>
-        <p><strong>Sunset: </strong>${sunset}</p>
+        <h2>Current Weather</h2>
+        <div class="info-horizontal">                    
+            <figure>
+                <img id="weather-icon" src="${iconsrc}" alt="${iconDesc}">
+                <figcaption>${iconDesc}</figcaption>
+            </figure>
+            <div>    
+                <p><strong>${data.main.temp} °C</strong></p>
+                <p><strong>High: </strong>${data.main.temp_max} °C</p>
+                <p><strong>Low: </strong>${data.main.temp_min} °C</p>
+                <p><strong>Humidity: </strong>${data.main.humidity} %</p>
+                <p><strong>Sunrise: </strong>${sunrise}</p>
+                <p><strong>Sunset: </strong>${sunset}</p>
+            </div>           
+        </div> 
     `;
 }
 
