@@ -10,6 +10,11 @@
     color: black;
 }
 
+.member img {
+    width: 100px;
+    height: auto;
+}
+
 /* list view */
 .list-item {
     text-align: left;
