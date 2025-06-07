@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    --bistre: #251605;
+    --chamoisee: #96825A;
+    --cornsilk: #FFF5D2;
+    --citron: #BEC864;
+    --olive: #788C01;
+}
+
+/* Typography */
+h1 {
+    font-family: 'Butterscotch', sans-serif;
+    font-weight: 400;
+    font-size: 350%;
+}
+
+h2 {
+    font-family: 'Sniglet';
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+h3, p, li {
+    padding: 5px 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+li {
+    padding: 2px 20px;
+}
+
+/* Body */
+header, footer {
+    text-align: center;
+    background-color: var(--olive);
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+}
+
+header h2 {
+    font-weight: 400;
+}
+
+main {
+    background-color: cornsilk;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+button {
+    background-color: var(--bistre);
+    color: white;
+    font-family: 'Sniglet';
+    font-size: 120%;
+    padding: 15px 30px;
+    margin: 5px 0px;
+    border-radius: 50px;
+}
+
+.card {
+    background-color: white;
+    width: 90%;
+    padding: 20px;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 30px;
+    align-items: center;
+}
+
+#wireframe {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
