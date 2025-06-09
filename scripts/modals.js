@@ -1,6 +1,6 @@
-const modal = document.querySelector('#course-details');
-const openModal = document.querySelector('#open-btn');
-const closeModal = document.querySelector('#close-btn');
+const dialog = document.querySelector('#course-details');
+const openBtn = document.querySelector('#open-btn');
+const closeBtn = document.querySelector('#close-btn');
 
 function displayCourseDetails(course) {
     details.innerHTML = '';
