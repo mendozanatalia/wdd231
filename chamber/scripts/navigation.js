@@ -10,3 +10,10 @@ navElement.addEventListener('click', () => {
     navElement.classList.remove('nav--open');
     hamburger.classList.remove('hamburger--open')
 });
+
+window.addEventListener('scroll', () => {
+    if (navElement.classList.contains('nav--open')) {
+        navElement.classList.remove('nav--open');
+        hamburger.classList.remove('hamburger--open');
+    }
+});
