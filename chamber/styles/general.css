@@ -30,7 +30,7 @@ figcaption {
 }
 
 /* button */
-button {
+button, .btn {
     background-color: var(--pink);
     color: white;
     font-size: large;
@@ -38,11 +38,13 @@ button {
     padding: 15px 40px;
     border-radius: 5rem;
     border: none;
+    text-align: center;
 }
 
-button:hover {
+button:hover, .btn:hover {
     background-color: var(--turquoise);
 }
+
 
 /* ----- HEADER ----- */
 header {
