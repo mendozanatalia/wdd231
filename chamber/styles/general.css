@@ -147,14 +147,14 @@ header {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    align-items: center;
+    align-items:start;
     justify-content: center;
 }
 
 /* card */
 .card {
     min-width: 300px;
-    min-height: 200px;
+    min-height: 100px;
     box-shadow: var(--box-shadow);
     border-radius: .5rem;
 }
@@ -179,8 +179,8 @@ header {
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    gap: .5rem;
+    justify-content: center;
+    gap: 1rem;
 }
 
 /* ----- FOOTER ----- */
