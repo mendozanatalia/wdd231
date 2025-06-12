@@ -106,19 +106,6 @@ textarea:required:valid:focus {
     color: var(--pink);
 }
 
-/* THANK YOU PAGE */
-#thank-you-container {
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-}
-
-#summary-box {
-    width: 400px;
-}
-
 #learn-more {
     align-self: center;
     justify-self: center;
@@ -137,4 +124,34 @@ textarea:required:valid:focus {
 
 #dialog-title {
     justify-content: space-between;
+}
+
+/* THANK YOU PAGE */
+#thank-you-container {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+#summary-box {
+    width: 400px;
+}
+
+/* ANIMATION */
+@keyframes floatUp {
+    from {
+        opacity: 0;
+        transform: translateY(70px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card.membership {
+    animation: floatUp 1.5s ease-out forwards;
+    opacity: 0;
 }
