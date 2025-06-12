@@ -18,6 +18,7 @@
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/join.js" defer></script>
+    <script src="scripts/membership-modals.mjs" type="module"></script>
 
     <!-- Typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -87,25 +88,18 @@
             </div>
 
             <!-- MEMBERSHIP INFO -->
-            <div class="info-vertical">
+            <div id="membership-gallery" class="info-vertical">
                 <h1>Membership Levels</h1>
-                <div class="card membership">
-                    <h3>Non Profit Membership Level</h3>
-                    <a class="more" href="">Learn More</a>
-                </div>
-                <div class="card membership">
-                    <h3>Bronze Membership Level</h3>
-                    <a class="more" href="">Learn More</a>
-                </div>
-                <div class="card membership">
-                    <h3>Silver Membership Level</h3>
-                    <a class="more" href="">Learn More</a>
-                </div>
-                <div class="card membership">
-                    <h3>Gold Membership Level</h3>
-                    <a class="more" href="">Learn More</a>
-                </div>
+
             </div>
+
+            <dialog id="learn-more" class="card">
+                <div id="dialog-title" class="info-horizontal">
+                    <h2></h2>
+                    <button>X</button>
+                </div>
+                <p></p>
+            </dialog>
         </section>
         
     </main>
