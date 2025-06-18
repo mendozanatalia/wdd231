@@ -1,0 +1,61 @@
+#places {
+    padding: 2rem;
+    gap: 1.5rem;
+}
+
+.info {
+    padding: 1rem;
+    gap: 10px;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-areas:
+            "photo"
+            "description"
+            "address"
+            "btn"
+        ;
+}
+
+.info img {
+    width: 100%;
+    grid-area: photo;
+}
+
+.info p {
+    grid-area: description;
+}
+
+.info address {
+    grid-area: address;
+}
+
+.info button {
+    width: 100%;
+    grid-area: btn;
+}
+
+@media only screen and (min-width: 640px) {
+    .info {
+        grid-template-areas:
+            "photo description"
+            "photo address"
+            "btn btn"
+        ;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #places {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .info {
+        grid-template-areas: 
+            "photo description"
+            "photo address"
+            "btn"
+        ;
+    }
+}

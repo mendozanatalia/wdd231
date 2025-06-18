@@ -1,0 +1,52 @@
+{
+    "places": [
+        {
+            "name": "Cristo de la Concordia",
+            "description": "The Cristo de la Concordia is a colossal statue, which has been part of its tourist attractions since 1987.",
+            "image": "images/cristo-concordia.webp",
+            "address": "Av. de la Concordia, Cerro San Pedro"
+        },
+        {
+            "name": "Parque de la Familia",
+            "description": "With this visit to the Parque de la Familia, we will enjoy the greatest light and water fountain show. A walk full of color, music, and fun that you simply can't miss.",
+            "image": "images/parque-familia.webp",
+            "address": "Av. Circuito Bolivia, Distrito 6"
+        },
+        {
+            "name": "FEXCO",
+            "description": "The fastest-growing international fair in the country, where business, culture, and international experiences come together. Be part!",
+            "image": "images/fexco.webp",
+            "address": "Recinto Ferial de Alalay"
+        },
+        {
+            "name": "Hupermall",
+            "description": "Hupermall is a modern shopping center offering a wide variety of national and international brands, entertainment options.",
+            "image": "images/hupermall.webp",
+            "address": "Av. América entre Villarroel y Ricardo Jaimes Freyre"
+        },
+        {
+            "name": "Plaza Colón",
+            "description": "Plaza Colón is one of the most traditional and vibrant squares in Cochabamba, surrounded by shops, cafes, and historical buildings.",
+            "image": "images/plaza-colon.webp",
+            "address": "Calle Colombia y Av. Ballivián"
+        },
+        {
+            "name": "Plaza 14 de Septiembre",
+            "description": "Located in the heart of the city. It is surrounded by iconic buildings such as the cathedral and government offices.",
+            "image": "images/plaza-principal.webp",
+            "address": "Centro Histórico de Cochabamba"
+        },
+        {
+            "name": "Tren Metropolitano",
+            "description": "The Estación del Tren Metropolitano is part of modern public transport system. It connects various parts of the city and nearby municipalities.",
+            "image": "images/tren-metropolitano.webp",
+            "address": "Av. 6 de Agosto, Zona Estación Central"
+        },
+        {
+            "name": "El Pueblito",
+            "description": "El Pueblito, is a small historic neighborhood, in the Tupuraya area. It is considered one of the first indigenous settlements that existed in the city.",
+            "image": "images/el-pueblito.webp",
+            "address": "Zona Tupuraya, noroeste de la ciudad"
+        }
+    ]
+}
