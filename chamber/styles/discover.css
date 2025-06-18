@@ -20,6 +20,8 @@
 
 .info img {
     width: 100%;
+    transition: transform 0.3s ease;
+
     grid-area: photo;
 }
 
@@ -43,6 +45,10 @@
             "photo address"
             "btn btn"
         ;
+    }
+
+    .info img:hover {
+        transform: scale(1.05);
     }
 }
 
