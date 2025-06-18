@@ -1,3 +1,4 @@
+/* GRID AREA */
 #places {
     padding: 2rem;
     gap: 1.5rem;
@@ -52,10 +53,22 @@
     }
 
     .info {
-        grid-template-areas: 
+        grid-template-areas:
             "photo description"
             "photo address"
             "btn"
         ;
     }
+}
+
+/* LOCAL STORAGE */
+#visit-message {
+    background-color: #d5eeff;
+    color: black;
+    padding: 1rem;
+    border-left: 7px solid var(--blue);
+    margin: 1rem;
+    font-weight: bold;
+    font-size: x-large;
+    border-radius: 0.5rem;
 }
