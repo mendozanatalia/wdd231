@@ -54,3 +54,18 @@ dialog p {
     line-height: 1.6;
     font-size: 1rem;
 }
+
+@keyframes floatUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.floating {
+    animation: floatUp 5s ease-out forwards;
+}
