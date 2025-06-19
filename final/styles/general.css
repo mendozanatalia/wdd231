@@ -221,7 +221,7 @@ footer p {
     font-style: italic;
 }
 
-#social-media {
+.social-media {
     display: flex;
     flex-direction: column;
     justify-content: center;
