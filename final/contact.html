@@ -65,8 +65,7 @@
                 <p>Get updates, discounts and more right to your inbox.</p>
                 
                 <form class="newsletter-form" method="GET" action="thank-you.html">
-                    <input type="text" name="username" placeholder="Your name*" required>
-                    
+                    <input type="text" name="name" placeholder="Your name*" required>
                     <input type="email" name="email" placeholder="Enter your email*" required>
                 
                     <fieldset class="interests">
@@ -76,7 +75,8 @@
                         <label><input type="checkbox" name="interests" value="Jewelry"> Jewelry</label>
                     </fieldset>
               
-                  <button type="submit">Subscribe</button>
+                    <input type="hidden" id="timestamp" name="timestamp">
+                    <button type="submit">Subscribe</button>
                 </form>
             </div>
         </section>
