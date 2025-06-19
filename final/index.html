@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Petita Regalos</title>
+    <meta name="description" content="Home Page from Petita Regalos Gift Store">
+    <meta name="author" content="Natalia Mendoza">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.cdnfonts.com/css/butterscotch" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- CSS reference -->
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/index.css">
+    
+    <!-- JS reference -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/delivery-dialog.js" type="module"></script>
+
+    <!-- Open Graph Properties -->
+    <meta property="og:title" content="Home | Petita Regalos">
+    <meta property="og:description" content="Petita Regalos Home Page. Discover all our handmade products in one place, with lot of options for different tastes and ocassions.">
+    <meta property="og:image" content="https://mendozanatalia.github.io/wdd231/final/images/main.webp">
+    <meta property="og:url" content="https://mendozanatalia.github.io/wdd231/final/index.html">
+</head>
+<body>
+    <header>
+        <img id="logo" src="images/logo-horizontal.png" alt="Logo" height="50">
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html" id="home" class="nav-link">Home</a></li>
+                <li><a href="about.html" id="about" class="nav-link">About us</a></li>
+                <li><a href="products.html" id="products" class="nav-link">Products</a></li>
+                <li><a href="contact.html" id="contact" class="nav-link">Contact Us</a></li>
+            </ul>
+        </nav>        
+    </header>
+    <main>
+        <!-- HERO -->
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 800px)" srcset="images/hero-home-l.webp">
+                <img src="images/hero-home-s.webp" alt="Hero" width="800">
+            </picture>
+        </div>
+
+        <!-- INTRO -->
+        <section class="container">
+            <h2>Handmade with Heart</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, doloremque sequi ipsam, explicabo dicta ea laborum eaque amet aspernatur repellat vel! Corrupti, enim vitae consectetur suscipit quia consequuntur reiciendis necessitatibus!</p>
+            <br>
+            <a href="products.html" class="btn">See Products!</a>
+        </section>
+
+        <!-- WE ARE -->
+        <section class="container horizontal" id="we-are">
+            <div>
+                <img src="images/natu.webp" alt="Natalia">
+            </div>
+            <div>
+                <h2>Hi! We are Natalia & Kelya,</h2>
+                <p>Do you want to know more about us?</p>
+                <br>
+                <a href="about.html" class="btn">Our Story</a>
+            </div>
+            <div>
+                <img src="images/fabu.webp" alt="Natalia">
+            </div>
+        </section>
+
+        <!-- GIFT OPTIONS -->
+        <section class="container" id="gift-options">
+            <h2>Looking for Unique Gift Options?</h2>
+            <p>We offer different types of products, all handmade!</p>
+            <br>
+            <div class="gallery">
+                <div class="card">
+                    <img src="images/notebooks.webp" alt="notebooks">
+                    <h3>Notebooks</h3>
+                </div>
+                <div class="card">
+                    <img src="images/plushies.webp" alt="plushies">
+                    <h3>Plushies</h3>
+                </div>
+                <div class="card">
+                    <img src="images/jewerly.webp" alt="jewerly">
+                    <h3>Jewelry</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- DELIVERY -->
+        <section class="container delivery">
+            <h2>Delivery Information</h2>
+            <p>Do you want to receive or send the gift to a specific address? Don't worry! We can do it...</p>
+            <div class="gallery">
+
+            </div>
+        </section>
+
+        <!-- DIALOG -->
+        <dialog id="learn-more">
+            <div id="dialog-title">
+                <h2></h2>
+                <button aria-label="Close">X</button>
+            </div>
+            <p></p>
+        </dialog>
+
+
+        <!-- INSTAGRAM -->
+        <section class="container">
+            <img src="images/instagram-black.svg" alt="instagram-icon" width="30">
+            <h3>@petitaregalos.bo</h3>
+            <p>We are on Instagram!</p>
+            <br>
+            <a href="https://www.instagram.com/petitaregalos.bo/" class="btn">Follow Us</a>
+        </section>
+
+        <!-- CLIENTS -->
+        <section class="container clients">
+            <h2>Clients Reactions</h2>
+            <p>Here are some clients' reactions recieving their gifts...</p>
+            <div class="gallery">                
+                <img class="card" src="images/whatsapp-1.webp" alt="whatsapp-capture">
+                <img class="card" src="images/whatsapp-2.webp" alt="whatsapp-capture">
+                <img class="card" src="images/whatsapp-3.webp" alt="whatsapp-capture">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h3>Petita Regalos</h3>
+            <p>Zona La Chimba</p>
+            <p>petitaregalos@gmail.com</p>
+            <p>Cochabamba, Bolivia</p>
+            <p>(+591) 75492508</p>
+        </div>
+
+        <div class="social-media-icons">
+            <a href="https://wa.me/c/59175492508"><img src="images/icon-whatsapp.svg" alt="whatsapp-icon" width="50"></a>
+            <a href="https://www.instagram.com/petitaregalos.bo/"><img src="images/icon-instagram.svg" alt="instagram-icon" width="50"></a>
+            <a href="https://www.tiktok.com/@petita.regalos"><img src="images/icon-tiktok.svg" alt="tiktok-icon" width="50"></a>
+        </div>
+
+        <div>
+            <h3>WDD 231: Final Project</h3>
+            <p>Natalia Mendoza Teran</p>
+            <p>©<span id="current-year"></span> • Petita Regalos</p>
+            <p class="last-modified">Last Modification: <span id="last-modified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

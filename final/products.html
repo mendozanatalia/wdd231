@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | Petita Regalos</title>
+    <meta name="description" content="Products' Page from Petita Regalos Gift Store">
+    <meta name="author" content="Natalia Mendoza">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.cdnfonts.com/css/butterscotch" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- CSS reference -->
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/products.css">
+    
+    <!-- JS reference -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/create-catalog.js" defer></script>
+    <script src="scripts/product-dialog.js" defer></script>
+
+    <!-- Open Graph Properties -->
+    <meta property="og:title" content="Products | Petita Regalos">
+    <meta property="og:description" content="Petita Regalos products catalog. Discover all our handmade products in one place, with lot of options for different tastes and ocassions.">
+    <meta property="og:image" content="https://mendozanatalia.github.io/wdd231/final/images/main.webp">
+    <meta property="og:url" content="https://mendozanatalia.github.io/wdd231/final/products.html">
+</head>
+<body>
+    <header>
+        <img id="logo" src="images/logo-horizontal.png" alt="Logo" height="50">
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html" id="home" class="nav-link">Home</a></li>
+                <li><a href="about.html" id="about" class="nav-link">About us</a></li>
+                <li><a href="products.html" id="products" class="nav-link">Products</a></li>
+                <li><a href="contact.html" id="contact" class="nav-link">Contact Us</a></li>
+            </ul>
+        </nav>        
+    </header>
+    <main>
+        <!-- Products Navigation  -->
+        <nav class="nav-products">
+            <ul>
+                <li><a href="#" id="all" class="nav-link">All Products</a></li>
+                <li><a href="#" id="plushies" class="nav-link">Plushies</a></li>
+                <li><a href="#" id="jewelry" class="nav-link">Jewelry</a></li>
+                <li><a href="#" id="notebooks" class="nav-link">Notebooks</a></li>
+            </ul>
+        </nav>
+
+        <!-- Cards -->
+        <div class="container">
+            <h2 id="tab-title">Home</h2>
+            <div class="gallery" id="catalog">
+
+            </div>
+        </div>
+
+        <!-- Dialogs -->
+        <dialog id="productDialog">
+
+        </dialog>
+    </main>
+    <footer>
+        <div>
+            <h3>Petita Regalos</h3>
+            <p>Zona La Chimba</p>
+            <p>petitaregalos@gmail.com</p>
+            <p>Cochabamba, Bolivia</p>
+            <p>(+591) 75492508</p>
+        </div>
+
+        <div class="social-media-icons">
+            <a href="https://wa.me/c/59175492508"><img src="images/icon-whatsapp.svg" alt="whatsapp-icon" width="50"></a>
+            <a href="https://www.instagram.com/petitaregalos.bo/"><img src="images/icon-instagram.svg" alt="instagram-icon" width="50"></a>
+            <a href="https://www.tiktok.com/@petita.regalos"><img src="images/icon-tiktok.svg" alt="tiktok-icon" width="50"></a>
+        </div>
+
+        <div>
+            <h3>WDD 231: Final Project</h3>
+            <p>Natalia Mendoza Teran</p>
+            <p>©<span id="current-year"></span> • Petita Regalos</p>
+            <p class="last-modified">Last Modification: <span id="last-modified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

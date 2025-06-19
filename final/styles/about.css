@@ -1,0 +1,22 @@
+#story{
+    background-color: rgba(128, 128, 0, 0.2);
+}
+
+#love{
+    background-color: rgba(128, 128, 0, 0.2);
+}
+
+@keyframes floatUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.floating {
+    animation: floatUp 5s ease-out forwards;
+}

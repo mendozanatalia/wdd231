@@ -1,0 +1,276 @@
+{
+    "products": [
+        {
+            "name": "101 Dates",
+            "image": "images/products/101-citas.webp",
+            "price": "75 Bs.",
+            "dimensions": "17 x 22 cm",
+            "material": "Cardboard, 108gsm photo paper, matte lamination, wire-o, 120gsm bond paper.",
+            "category": "Notebooks"
+        },
+        {
+            "name": "Mini Bee",
+            "image": "images/products/abejitas.webp",
+            "price": "15 Bs.",
+            "dimensions": "7 cm",
+            "material": "Polar Wool, 100% Polyester",
+            "category": "Plushies"
+        },
+        {
+            "name": "Dated Planner",
+            "image": "images/products/agenda.webp",
+            "price": "50 Bs.",
+            "dimensions": "11,5 x 14,5 cm",
+            "material": "Cardboard, 108gsm photo paper, matte lamination, wire-o, 75gsm bond paper.",
+            "category": "Notebooks"
+        },
+        {
+            "name": "Album - Color",
+            "image": "images/products/album-color.webp",
+            "price": "50 Bs.",
+            "dimensions": "17 x 22 cm",
+            "material": "Cardboard, 108gsm photo paper, matte lamination, wire-o, 180gsm bond paper.",
+            "category": "Notebooks"
+        },
+        {
+            "name": "Christmas Tree",
+            "image": "images/products/arboles-navidad.webp",
+            "price": "30 Bs.",
+            "dimensions": "10 cm",
+            "material": "Wool 75% Polyester - 25% Cotton",
+            "category": "Plushies"
+        },
+        {
+            "name": "Flower Earrings",
+            "image": "images/products/aretes-margarita.webp",
+            "price": "25 Bs.",
+            "dimensions": "3 cm",
+            "material": "Stainless steel, gold-plated copper wire, beads",
+            "category": "Jewelry"
+        },
+        {
+            "name": "Murano Earrings",
+            "image": "images/products/aretes-murano.webp",
+            "price": "25 Bs.",
+            "dimensions": "3 cm",
+            "material": "Stainless steel, gold-plated copper wire, beads",
+            "category": "Jewelry"
+        },
+        {
+            "name": "Baby Grogu",
+            "image": "images/products/babygrogu.webp",
+            "price": "30 Bs.",
+            "dimensions": "12 cm",
+            "material": "Polar Wool, 100% Polyester",
+            "category": "Plushies"
+        },
+        {
+            "name": "Baby Grogu",
+            "image": "images/products/babygrogu-milk.webp",
+            "price": "15 Bs.",
+            "dimensions": "5 cm",
+            "material": "Wool 100% Acrylic",
+            "category": "Plushies"
+        },
+        {
+            "name": "Mini Whales",
+            "image": "images/products/ballenitas.webp",
+            "price": "5 Bs.",
+            "dimensions": "2 cm",
+            "material": "Wool 75% Polyester - 25% Cotton",
+            "category": "Plushies"
+        },
+        {
+            "name": "Book Journal",
+            "image": "images/products/book-journal.webp",
+            "price": "80 - 100 Bs.",
+            "dimensions": "17 x 22 cm",
+            "material": "Cardboard, 108gsm photo paper, matte lamination, wire-o, 120gsm bond paper.",
+            "category": "Notebooks"
+        },
+        {
+            "name": "Chihuahua",
+            "image": "images/products/chihuahua.webp",
+            "price": "30 Bs.",
+            "dimensions": "7 cm",
+            "material": "Wool 75% Polyester - 25% Cotton",
+            "category": "Plushies"
+        },
+        {
+            "name": "Bunny",
+            "image": "images/products/conejo.webp",
+            "price": "20 Bs.",
+            "dimensions": "6 cm",
+            "material": "Wool 75% Polyester - 25% Cotton",
+            "category": "Plushies"
+        },
+        {
+            "name": "Flashcards Book",
+            "image": "images/products/flashcards.webp",
+            "price": "10 Bs.",
+            "dimensions": "5x7 cm",
+            "material": "Cardboard, 108gsm photo paper, matte lamination, wire-o, 75gsm bond paper.",
+            "category": "Notebooks"
+        },
+        {
+            "name": "Mushrooms",
+            "image": "images/products/honguitos.webp",
+            "price": "15 Bs.",
+            "dimensions": "5 cm",
+            "material": "Wool 75% Polyester - 25% Cotton",
+            "category": "Plushies"
+        },
+        {
+            "name": "Photo Pack",
+            "image": "images/products/impresion-fotos.webp",
+            "price": "15 Bs.",
+            "dimensions": "7 x 7 cm, 10 x 10 cm",
+            "material": "Photo paper 150gr, adhesive",
+            "category": "Notebooks"
+        },
+        {
+            "name": "Koala",
+            "image": "images/products/koala.webp",
+            "price": "30 Bs.",
+            "dimensions": "7 cm",
+            "material": "Wool 75% Polyester - 25% Cotton",
+            "category": "Plushies"
+        },
+        {
+            "name": "Wedding Book",
+            "image": "images/products/libro-firmas.webp",
+            "price": "60 Bs.",
+            "dimensions": "17 x 22 cm",
+            "material": "Cardboard, 108gsm photo paper, matte lamination, wire-o, 120gsm bond paper.",
+            "category": "Notebooks"
+        },
+        {
+            "name": "Mini Album - Color",
+            "image": "images/products/malbum-color.webp",
+            "price": "40 Bs.",
+            "dimensions": "11,5 x 11,5 cm",
+            "material": "Cardboard, 108gsm photo paper, matte lamination, wire-o, 180gsm bond paper.",
+            "category": "Notebooks"
+        },
+        {
+            "name": "Mini Album - Kraft",
+            "image": "images/products/malbum-kraft.webp",
+            "price": "35 Bs.",
+            "dimensions": "11,5 x 11,5 cm",
+            "material": "Cardboard, 108gsm photo paper, matte lamination, wire-o, 180gsm bond paper.",
+            "category": "Notebooks"
+        },
+        {
+            "name": "Mini Notebook",
+            "image": "images/products/minicuadrado-kraft.webp",
+            "price": "25 Bs.",
+            "dimensions": "11,5 x 11,5 cm",
+            "material": "Cardboard, 108gsm photo paper, matte lamination, wire-o, 75gsm bond paper.",
+            "category": "Notebooks"
+        },
+        {
+            "name": "Owl Purse",
+            "image": "images/products/monedero-buho.webp",
+            "price": "35 Bs.",
+            "dimensions": "6,5 x 9 cm",
+            "material": "Wool 75% Polyester - 25% Cotton",
+            "category": "Plushies"
+        },
+        {
+            "name": "Giraffe Purse",
+            "image": "images/products/monedero-jirafa.webp",
+            "price": "35 Bs.",
+            "dimensions": "6,5 x 9 cm",
+            "material": "Wool 75% Polyester - 25% Cotton",
+            "category": "Plushies"
+        },
+        {
+            "name": "Otter",
+            "image": "images/products/nutria-polar.webp",
+            "price": "25 Bs.",
+            "dimensions": "9 cm",
+            "material": "Polar Wool, 100% Polyester",
+            "category": "Plushies"
+        },
+        {
+            "name": "Panda",
+            "image": "images/products/panda-polar.webp",
+            "price": "25 Bs.",
+            "dimensions": "9 cm",
+            "material": "Polar Wool, 100% Polyester",
+            "category": "Plushies"
+        },
+        {
+            "name": "Penguin",
+            "image": "images/products/pinguino.webp",
+            "price": "20 Bs.",
+            "dimensions": "6 cm",
+            "material": "Polar Wool, 100% Polyester",
+            "category": "Plushies"
+        },
+        {
+            "name": "Mini Chick",
+            "image": "images/products/pollito.webp",
+            "price": "20 Bs.",
+            "dimensions": "6 cm",
+            "material": "Polar Wool, 100% Polyester",
+            "category": "Plushies"
+        },
+        {
+            "name": "Turtle",
+            "image": "images/products/tortuga.webp",
+            "price": "30 Bs.",
+            "dimensions": "8 cm",
+            "material": "Polar Wool, 100% Polyester",
+            "category": "Plushies"
+        },
+        {
+            "name": "Bears",
+            "image": "images/products/osos.webp",
+            "price": "20 Bs.",
+            "dimensions": "6 cm",
+            "material": "Wool 75% Polyester - 25% Cotton",
+            "category": "Plushies"
+        },
+        {
+            "name": "Froggy Friend",
+            "image": "images/products/rana-overol.webp",
+            "price": "35 Bs.",
+            "dimensions": "6 cm",
+            "material": "Wool 75% Polyester - 25% Cotton",
+            "category": "Plushies"
+        },
+        {
+            "name": "Recepies Notebook",
+            "image": "images/products/recetario.webp",
+            "price": "30 Bs.",
+            "dimensions": "11,5 x 17 cm",
+            "material": "Cardboard, 108gsm photo paper, matte lamination, wire-o, 120gsm bond paper.",
+            "category": "Notebooks"
+        },
+        {
+            "name": "Post-It",
+            "image": "images/products/porta-postit.webp",
+            "price": "10 Bs.",
+            "dimensions": "5 x 6 cm",
+            "material": "Cardboard, 108gsm photo paper, matte lamination, 75gsm bond paper.",
+            "category": "Notebooks"
+        },
+        {
+            "name": "Planner Disney",
+            "image": "images/products/planner-disney.webp",
+            "price": "20 Bs.",
+            "dimensions": "A5",
+            "material": "180gsm photo paper, matte lamination, 120gsm bond paper.",
+            "category": "Notebooks"
+        },
+        {
+            "name": "Bee",
+            "image": "images/products/polar-abeja.webp",
+            "price": "30 Bs.",
+            "dimensions": "9 cm",
+            "material": "Polar Wool, 100% Polyester",
+            "category": "Plushies"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+#we-are {
+    background-color: var(--citron);
+    color: white;
+}
+
+#we-are img {
+    width: 300px;
+    height: auto;
+    border: solid 15px white;
+    box-shadow: var(--box-shadow);
+}
+
+.delivery {
+    background-color: var(--chamoisee);
+    color: white;
+}
+
+.delivery img {
+    width: 100px;
+    margin: 10px;
+}
+
+.clients {
+    background-color: var(--bistre);
+    color: white;
+}
+
+.clients img {
+    padding: 0;
+}
+
+/* DIALOG */
+.delivery-card {
+    padding-bottom: 2rem;
+}
+
+dialog {
+    align-self: center;
+    justify-self: center;
+    max-width: 500px;
+    border: none;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+}
+
+#dialog-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+dialog p {
+    line-height: 1.6;
+    font-size: 1rem;
+}
